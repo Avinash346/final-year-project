@@ -1,20 +1,14 @@
-
-
 <div align="center">
   <img align="center" alt="Nextjs Logo" width="120px" height="120px" src="https://github.com/adam-ridhwan/next-movie/assets/76563028/8361c850-034b-476f-ac60-665f45c2a2df"/>
 </div>
 
 <h1 align="center">Next Movie</h1>
 
-<p>🍿 Live Preview www.next-movie-adam-ridhwan.vercel.app</p>
-
 <h2>🔰 About</h2
              
 This is a movie database web application built with `Next.js` . It uses the `TMDB API` to fetch movie data and display it in a carousel slider.
 
 <h2>✨ Screenshots</h2>
-
-<img src='https://github.com/adam-ridhwan/next-imdb/assets/76563028/bd619cdb-57ac-41bc-b64d-a3628ce829b5' alt='screenshot 1' />
 
 <br />
 <br />
@@ -40,9 +34,9 @@ This is a movie database web application built with `Next.js` . It uses the `TMD
 
 <h2>Features</h2>
 
-- 🎞️ Complex Carousel Slider 
+- 🎞️ Complex Carousel Slider
 - 📡 Server Action Data Fetching
-- 🔍 Searching 
+- 🔍 Searching
 - 🔀 Parallel Route Modals
 - 🛡️ Type Safety with Zod
 - 🪝 Custom React hooks
@@ -53,29 +47,34 @@ This is a movie database web application built with `Next.js` . It uses the `TMD
 
 <h3>Prequisites</h3>
 
-1) Install pnpm
+1. Install pnpm
+
 ```bash
 npm install -g pnpm
 ```
 
-2) Add TMDB API Key and Read Access Token to `.env.local` file. Keys can be retrieved from [TMDB](https://developer.themoviedb.org/docs/getting-started) webstie
+2. Add TMDB API Key and Read Access Token to `.env.local` file. Keys can be retrieved from [TMDB](https://developer.themoviedb.org/docs/getting-started) webstie
+
 ```bash
 NEXT_PUBLIC_NODE_ENV=
 TMDB_API_KEY=
 TMDB_READ_ACCESS_TOKEN=
 ```
 
-3) Install dependencies
+3. Install dependencies
+
 ```bash
 pnpm install
 ```
 
-4) Testing development code
+4. Testing development code
+
 ```bash
 pnpm dev
 ```
 
-5) Testing production code
+5. Testing production code
+
 ```bash
 pnpm prod
 ```
@@ -85,12 +84,3 @@ pnpm prod
 <img  alt="TMDB Logo" width="100px" src="https://github.com/adam-ridhwan/next-imdb/assets/76563028/ac3b833f-3b4c-4152-8b78-6431d2731a63"/>
 
 Data provided by [TMDB](https://www.themoviedb.org/)
-
-<h2>Author</h2>
-
-<p>Adam Ridhwan</p>
-
-- GitHub: [@adam-ridhwan](https://github.com/adam-ridhwan)
-
-
-
